@@ -1,0 +1,13 @@
+#menu {
+    .navbar{
+        background: #333 ;
+        a{
+            color: orange;
+        }
+    }
+    .navbar-fixed{
+        position: fixed;
+        z-index: 10;
+        width: 100%;
+    }
+}

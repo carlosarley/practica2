@@ -1,0 +1,42 @@
+// import css
+@import "_nav.scss";
+@import "_slider.scss";
+@import "_news.scss";
+// fuentes
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+// body
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+
+
+}
+.objetos-float{
+    position: relative;
+    height: 500px;
+    background:grey;
+    .float1{
+position: absolute;
+width: 200px;
+height: 200px;
+background: red;
+left: 50%;
+top: 10%;
+z-index: 10;
+    }  
+    
+    .float2{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background: blue;
+        left: 45%;
+        top: 10%;
+            }  
+}
